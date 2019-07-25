@@ -1,0 +1,31 @@
+<resources>
+    <string name="ip_all_images">All</string>
+    <string name="ip_folder_image_count">total %1$d</string>
+    <string name="ip_preview_image_count">%1$d/%2$d</string>
+    <string name="ip_select_limit">At most select %1$d pictures</string>
+    <string name="ip_complete">Done</string>
+    <string name="ip_select_complete">complete(%1$d/%2$d)</string>
+    <string name="ip_preview">preview</string>
+    <string name="ip_preview_count">preview(%1$d)</string>
+    <string name="ip_photo_crop">crop</string>
+    <string name="ip_origin">original</string>
+    <string name="ip_origin_size">original(%1$s)</string>
+    <string name="indicator">indicator</string>
+    <string name="image">image</string>
+    <string name="check_icon">check_icon</string>
+    <string name="thumb">thumb</string>
+    <string name="arrow_back">arrow_back</string>
+    <string name="review_default">review(3)</string>
+    <string name="photo_default">原图(3.07M)</string>
+    <string name="select">select</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="total_none">共0张</string>
+    <string name="picture">Picture</string>
+    <string name="complete_0_3">complete(0/3)</string>
+    <string name="permission_denied_no_album">Permisson denied,can\'t load album</string>
+    <string name="permission_denied_no_camera">Permission denied,can\'t use camera</string>
+    <string name="confirm">Confirm</string>
+    <string name="do_you_want_to_delete_photo">Do you want to delete this photo？</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+</resources>

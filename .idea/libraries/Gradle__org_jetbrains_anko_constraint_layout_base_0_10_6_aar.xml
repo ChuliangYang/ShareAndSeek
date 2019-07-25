@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.anko:constraint-layout-base:0.10.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5de229cea7e55464433219b1ba222ded/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5de229cea7e55464433219b1ba222ded/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/constraint-layout-base/0.10.6/5c3a081ccefe0ed7887cd1733af0121a54d9a45a/constraint-layout-base-0.10.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

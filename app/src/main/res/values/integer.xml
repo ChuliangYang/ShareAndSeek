@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="description_min_lines">20</integer>
+    <integer name="rating_bar_num_stars">5</integer>
+    <integer name="rating_bar_default_rating">0</integer>
+    <item name="rating_bar_step_size" type="integer" format="float">0.5</item>
+</resources>

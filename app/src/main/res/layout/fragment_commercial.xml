@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.me.cl.capstoneproject.widget.CustomNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nsv_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:id="@+id/ll_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_cate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:paddingBottom="7dp"
+            android:paddingTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.me.cl.capstoneproject.widget.WrapContentViewPager
+                android:id="@+id/vp_commercial_cate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.me.cl.capstoneproject.widget.InkPageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="7dp"
+                app:currentPageIndicatorColor="#ff333333"
+                app:pageIndicatorColor="#80333333" />
+
+        </LinearLayout>
+
+
+
+        <com.me.cl.capstoneproject.widget.CustomSwipeRefreshLayout
+            android:id="@+id/sf_commercial"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            >
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_commercial_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </com.me.cl.capstoneproject.widget.CustomSwipeRefreshLayout>
+    </LinearLayout>
+</com.me.cl.capstoneproject.widget.CustomNestedScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_widget_service_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        tools:text="duck"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="3dp" />
+
+    <TextView
+        android:id="@+id/tv_widget_reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        tools:text="5 Reviews"
+        android:textSize="13sp"
+        android:gravity="start"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp" />
+
+</RelativeLayout>

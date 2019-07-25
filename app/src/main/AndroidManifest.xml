@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.me.cl.capstoneproject"
+    >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:theme="@style/AppTheme.main"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.upload.commercial.CommercialUploadActivity"
+            android:theme="@style/AppTheme.upload"
+            android:windowSoftInputMode="stateHidden"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            ></activity>
+        <activity
+            android:name=".ui.detail.CommercialDetailActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.commercial_detail_transition"></activity>
+        <activity
+            android:name=".ui.list.CommercialListActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.commercialList"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+        ></activity>
+
+        <activity
+            android:name=".ui.upload.free.FreeUploadActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.upload"
+            android:windowSoftInputMode="stateHidden"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            />
+        <activity
+            android:name=".ui.upload.help.HelpUploadActivity"
+            android:theme="@style/AppTheme.upload"
+            android:windowSoftInputMode="stateHidden"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBANLVdyNiIMfHmi_n1qhG-cleK8S0MP2E" />
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver android:name=".screenwidget.AppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="AUTO_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_widget_info" />
+        </receiver>
+        <service
+            android:name=".screenwidget.WidgetListProviderService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <service android:name=".screenwidget.WidgetService"
+            />
+    </application>
+
+</manifest>

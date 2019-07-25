@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="together"
+    >
+    <changeBounds android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:duration="600">
+        <targets>
+            <target android:targetId="@id/vp_main" />
+            <target android:targetId="@id/view_backgroud" />
+        </targets>
+    </changeBounds>
+
+    <!--<transition-->
+        <!--class="com.me.cl.capstoneproject.CustomTransition"-->
+        <!--&gt;-->
+        <!--<targets>-->
+            <!--<target android:targetId="@id/fab_create" />-->
+            <!--<target android:targetId="@id/floatingActionButton2" />-->
+        <!--</targets>-->
+    <!--</transition>-->
+
+    <!--<transition-->
+        <!--class="com.me.cl.capstoneproject.EmptyTransition"-->
+        <!--&gt;-->
+        <!--<targets>-->
+            <!--<target android:targetId="@id/ll_top" />-->
+            <!--<target android:targetId="@id/sp_title" />-->
+            <!--<target android:targetId="@id/toolbar_share" />-->
+            <!--<target android:targetId="@id/district_share" />-->
+        <!--</targets>-->
+    <!--</transition>-->
+</transitionSet>

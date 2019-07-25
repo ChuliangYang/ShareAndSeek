@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    <objectAnimator
+        android:duration="1000"
+        android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+        android:propertyName="translateX"
+        android:valueFrom="0"
+        android:valueTo="700"
+        android:valueType="floatType"
+        />
+    <objectAnimator
+        android:startOffset="1000"
+        android:duration="0"
+        android:propertyName="pivotX"
+        android:valueFrom="700"
+        android:valueTo="700"
+        android:valueType="floatType"
+        />
+    <objectAnimator
+        android:startOffset="1000"
+        android:duration="0"
+        android:propertyName="pivotY"
+        android:valueFrom="500"
+        android:valueTo="500"
+        android:valueType="floatType"
+        />
+    <objectAnimator
+        android:startOffset="1000"
+        android:duration="0"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="180"
+        android:valueType="floatType"
+        />
+    <objectAnimator
+        android:startOffset="1000"
+        android:duration="1000"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="translateX"
+        android:valueFrom="700"
+        android:valueTo="250"
+        android:valueType="floatType"
+        />
+
+</set>

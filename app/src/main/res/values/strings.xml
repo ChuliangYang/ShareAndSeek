@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">CNSY</string>
+    <string name="tab_main_left">Commercial</string>
+    <string name="tab_main_center">Free</string>
+    <string name="tab_main_right">Help</string>
+    <string name="button_contact">Contact</string>
+    <string name="button_share">Share</string>
+    <string name="search_menu_title">search</string>
+
+    <string name="google_ad_unit_id">ca-app-pub-2798940618739500/4756331105</string>
+    <string name="google_ad_unit_id_main">ca-app-pub-2798940618739500/5498061232</string>
+    <string name="google_ad_unit_id_detail">ca-app-pub-2798940618739500/8779309622</string>
+    <string name="google_ad_unit_id_upload">ca-app-pub-2798940618739500/7849371339</string>
+
+    <!--<string name="google_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="google_ad_unit_id_main">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="google_ad_unit_id_detail">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="google_ad_unit_id_upload">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <string name="google_ad_unit_test_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="service_name">Service Name</string>
+    <string name="average_hint">Average</string>
+    <string name="address_hint">Address</string>
+    <string name="city_hint">City</string>
+    <string name="zip_code_hint">Zip Code</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="wechat_number_hint">Wechat Number</string>
+    <string name="upload_title">Upload</string>
+    <string name="ad_test_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad_app_id">ca-app-pub-2798940618739500~3063469582</string>
+    <!--<string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <string name="menu_share">share</string>
+    <string name="menu_album">album</string>
+    <string name="menu_comment">comment</string>
+
+    <string-array name="district_list">
+        <item>New York</item>
+        <item>Manhattan</item>
+        <item>Brooklyn</item>
+        <item>Queens</item>
+        <item>Bronx</item>
+        <item>Staten Island</item>
+    </string-array>
+
+    <string-array name="city_list">
+        <item>Manhattan</item>
+        <item>Brooklyn</item>
+        <item>Queens</item>
+        <item>Bronx</item>
+        <item>Staten Island</item>
+        <item>City</item>
+    </string-array>
+
+    <string-array name="state_list">
+        <item>New York</item>
+    </string-array>
+
+    <string-array name="main_tags">
+        <item>Commercial</item>
+        <item>Free</item>
+        <item>Help</item>
+    </string-array>
+
+    <string-array name="sort_type">
+        <item>By date</item>
+        <item>By rating</item>
+        <item>By price</item>
+        <item>By distance</item>
+    </string-array>
+
+    <string-array name="end_time">
+        <item>1 hour</item>
+        <item>3 hour</item>
+        <item>6 hour</item>
+        <item>12 hour</item>
+        <item>1 day</item>
+        <item>3 day</item>
+        <item>1 week</item>
+        <item>3 week</item>
+        <item>1 month</item>
+        <item>1 year</item>
+        <item>Expire Time</item>
+    </string-array>
+
+    <string-array name="commercial_categories">
+        <item>Restaurants</item>
+        <item>Bars</item>
+        <item>Hair Salon</item>
+        <item>Takeout</item>
+        <item>Shopping</item>
+        <item>Hotel</item>
+        <item>Skin Care</item>
+        <item>Coffee</item>
+        <item>Drug</item>
+        <item>Pet</item>
+        <item>Theater</item>
+        <item>Other</item>
+        <item>Type</item>
+    </string-array>
+
+    <string name="facebook_application_id" translatable="false">1772411833060902</string>
+    <!-- Facebook Application ID, prefixed by 'fb'.  Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb1772411833060902</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">No internet</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="unknown_sign_in_response">Sorry,you haven\'t signed in yet</string>
+    <string name="menu_sign_out">Sign out</string>
+    <string name="sign_out_success">Sign out success</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="address">address</string>
+    <string name="phone">phone</string>
+    <string name="wechat">wechat</string>
+    <string name="logo">logo</string>
+    <string name="add_new_photo">add new photo</string>
+    <string name="album">album</string>
+    <string name="expand_all">expand all</string>
+    <string name="photo">photo</string>
+    <string name="arrow">arrow</string>
+    <string name="monetary_unit">$</string>
+    <string name="use_current_location">Use Current Location</string>
+    <string name="cancel">cancel</string>
+    <string name="review">Review</string>
+    <string name="reviews">Reviews</string>
+    <string name="sort">Sort</string>
+    <string name="transition_vp_background">vp_background</string>
+    <string name="transition_shared_background">shared_background</string>
+    <string name="transition_shared_banner">shared_banner</string>
+    <string name="divider">divider</string>
+    <string name="permission_denied_no_album">Permisson denied,can\'t load album</string>
+    <string name="permission_denied_no_camera">Permission denied,can\'t use camera</string>
+    <string name="permission_denied">Permission denied!</string>
+    <string name="notice">Attention</string>
+    <string name="do_you_wanna_delete_photo">Do you want to delete this photo？</string>
+    <string name="positive">OK</string>
+    <string name="free">Free</string>
+    <string name="help">Help</string>
+    <string name="content">content</string>
+    <string name="commercial">Commercial</string>
+    <string name="please_input_service_name">Please input service name!</string>
+    <string name="invalid_address">Invalid address!</string>
+    <string name="please_input_a_valid_phone_number">Please input a valid phone number!</string>
+    <string name="input_invalid">Input invalid</string>
+    <string name="please_write_some_description">Please write some description!</string>
+    <string name="please_select_a_type">Please select a type!</string>
+    <string name="please_select_a_city">Please select a city!</string>
+    <string name="invalid">Invalid!</string>
+    <string name="please_select_end_time">Please select end time!</string>
+    <string name="sorry">Sorry</string>
+    <string name="please_rate">Please rate it,thanks!</string>
+    <string name="please_wait">Please wait</string>
+    <string name="uploading">Uploading</string>
+    <string name="empty_user">charles</string>
+    <string name="empty_avator_url">fake url</string>
+    <string name="success">Success</string>
+    <string name="upload_success">Upload Success!</string>
+</resources>

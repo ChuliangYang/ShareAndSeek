@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="together"
+    android:duration="400"
+    >
+  <!--<slide android:duration="500"-->
+      <!--&gt;-->
+    <!--<targets>-->
+      <!--<target android:excludeId="@+id/fab_create"/>-->
+      <!--<target android:excludeId="@android:id/navigationBarBackground"/>-->
+      <!--<target android:excludeId="@android:id/statusBarBackground"/>-->
+      <!--<target android:excludeId="@+id/sp_title"/>-->
+      <!--<target android:targetId="@+id/iv_logo"/>-->
+      <!--<target android:targetId="@+id/tl_main"/>-->
+    <!--</targets>-->
+
+  <!--</slide>-->
+
+  <slide android:slideEdge="bottom"
+      >
+    <targets>
+      <target android:targetId="@+id/fab_create"/>
+      <target android:excludeId="@android:id/navigationBarBackground"/>
+      <target android:excludeId="@android:id/statusBarBackground"/>
+    </targets>
+  </slide>
+</transitionSet>

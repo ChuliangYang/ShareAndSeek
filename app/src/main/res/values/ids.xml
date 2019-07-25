@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="relative_background" type="id"/>
+    <item name="district_share" type="id"/>
+    <item name="toolbar_share" type="id"/>
+    <item name="fab_share" type="id"/>
+</resources>

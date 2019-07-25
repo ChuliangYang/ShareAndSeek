@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.anko:supportV4-base:0.10.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95605a6fc97d0f1c16932ec66ee920d2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95605a6fc97d0f1c16932ec66ee920d2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/supportV4-base/0.10.6/efbcffa5b8caf0cbddf788f7cd0eb6e7e87bbde0/supportV4-base-0.10.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

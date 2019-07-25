@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    <objectAnimator
+        android:propertyName="translationY"
+        android:duration="0"
+        android:valueFrom="1000f"
+        android:valueTo="1000f"
+        android:startOffset="0"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        />
+    <objectAnimator
+        android:propertyName="translationY"
+        android:duration="3000"
+        android:valueTo="0f"
+        android:startOffset="500"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        />
+</set>

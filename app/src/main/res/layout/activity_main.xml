@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_create"
+        style="@style/Widget.Design.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="fab"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="@dimen/fab_margin"
+        app:srcCompat="@drawable/add_icon"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/vp_main"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:transitionName="toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:transitionGroup="false"
+        >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tb_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:clipChildren="false"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@drawable/logo"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/logo"
+                />
+
+            <com.me.cl.capstoneproject.widget.CustomSpinner
+                android:id="@+id/sp_title"
+                style="@style/Widget.AppCompat.Spinner"
+                android:layout_marginStart="20dp"
+                android:transitionName="district"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:dropDownSelector="?attr/selectableItemBackground"
+                android:background="@null"
+                android:overlapAnchor="false"
+                android:popupBackground="@drawable/shape_rectangle_round"
+                ></com.me.cl.capstoneproject.widget.CustomSpinner>
+
+        </android.support.v7.widget.Toolbar>
+
+        <com.me.cl.capstoneproject.widget.CustomTabLayout
+            android:id="@+id/tl_main"
+            style="@style/Widget.Design.TabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tabLayout_height"
+            android:alwaysDrawnWithCache="false"
+            android:animationCache="false"
+            android:background="@color/colorPrimary"
+            android:fillViewport="false"
+            android:overScrollMode="always"
+            app:tabBackground="@color/colorPrimary"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="3dp"
+            app:tabMode="scrollable"
+            app:tabPaddingStart="10dp"
+            app:tabPaddingEnd="10dp"
+            app:tabTextAppearance="@style/TextAppearance.AppCompat.custom"
+            app:tabSelectedTextColor="@color/colorAccent"
+            app:tabTextColor="@android:color/white">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tab_item1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:text="@string/tab_main_left" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tab_item2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                tools:text="@string/tab_main_center" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tab_item3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:text="@string/tab_main_right" />
+        </com.me.cl.capstoneproject.widget.CustomTabLayout>
+
+    </LinearLayout>
+
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/google_ad_unit_id_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:transitionGroup="false"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:transitionName="vp_background"
+        app:layout_constraintTop_toBottomOf="@+id/ll_top" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="together"
+    >
+  <!--<fade android:duration="2000"-->
+      <!--&gt;-->
+    <!--<targets>-->
+      <!--<target android:excludeId="@+id/fab_create"/>-->
+      <!--<target android:excludeId="@+id/ll_top"/>-->
+      <!--<target android:excludeId="@android:id/navigationBarBackground"/>-->
+      <!--<target android:excludeId="@android:id/statusBarBackground"/>-->
+    <!--</targets>-->
+
+  <!--</fade>-->
+
+  <!--<slide android:slideEdge="top"-->
+      <!--android:duration="2000"-->
+      <!--android:interpolator="@android:interpolator/fast_out_slow_in"-->
+      <!--&gt;-->
+    <!--<targets>-->
+      <!--<target android:targetId="@+id/ll_top"/>-->
+    <!--</targets>-->
+  <!--</slide>-->
+  <slide
+      android:slideEdge="bottom"
+      android:duration="1000"
+      android:interpolator="@android:interpolator/fast_out_slow_in"
+      >
+    <targets>
+      <target android:targetId="@+id/fab_create"/>
+      <target android:excludeId="@android:id/navigationBarBackground"/>
+      <target android:excludeId="@android:id/statusBarBackground"/>
+    </targets>
+  </slide>
+
+
+
+</transitionSet>

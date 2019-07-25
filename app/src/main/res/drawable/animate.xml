@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_test">
+    <target
+        android:name="one"
+        android:animation="@animator/trim_path"/>
+    <target
+        android:name="two"
+        android:animation="@animator/trim_path"/>
+    <target
+        android:name="three"
+        android:animation="@animator/trim_path"/>
+    <target
+        android:name="four"
+        android:animation="@animator/trim_path"/>
+</animated-vector>

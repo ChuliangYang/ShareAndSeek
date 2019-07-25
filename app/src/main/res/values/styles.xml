@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.upload">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="AppTheme.main">
+        <!--<item name="android:windowAnimationStyle">@style/NoCloseEnterAnim</item>-->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowReenterTransition">@transition/main_reenter</item>
+        <item name="android:windowEnterTransition">@transition/main_reenter</item>
+        <item name="android:windowExitTransition">@transition/main_exit</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="AppTheme.commercialList">
+        <!--<item name="android:windowSharedElementEnterTransition">@transition/commercial_list_shared_enter</item>-->
+        <item name="android:windowSharedElementReturnTransition">@transition/commercial_list_shared_return</item>
+        <item name="android:windowEnterTransition">@transition/commercial_list_content_enter</item>
+        <item name="android:windowReturnTransition">@transition/commercial_list_content_return</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+
+    </style>
+
+    <style name="main_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/photo_dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/photo_dialog_out_anim</item>
+    </style>
+
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+
+    <style name="AppTheme.commercial_detail_transition">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSharedElementsUseOverlay">true</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/commercial_detail_shared_enter</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!--<item name="android:windowSharedElementReturnTransition">@transition/dribbble_shot_shared_return</item>-->
+        <!--<item name="android:windowEnterTransition">@transition/commercial_detail_content_enter</item>-->
+        <!--<item name="android:windowReturnTransition">@transition/dribbble_shot_return</item>-->
+    </style>
+
+    <style name="TextAppearance.AppCompat.custom">
+        <item name="android:fontFamily">@font/great_vibes</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:textScaleX">0.5</item>
+    </style>
+    <style name="CustomToolBarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/great_vibes</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="WindowAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+    </style>
+
+    <style name="NoCloseEnterAnim" parent="@android:style/Animation.Activity">
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+</resources>

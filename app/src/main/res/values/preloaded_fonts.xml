@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre</item>
+        <item>@font/alegreya_sans_italic</item>
+        <item>@font/alegreya_sans_medium_italic</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/great_vibes</item>
+        <item>@font/lovers_quarrel</item>
+        <item>@font/risque</item>
+    </array>
+</resources>
