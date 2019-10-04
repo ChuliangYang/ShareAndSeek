@@ -1,6 +1,6 @@
 # Share and seek
 
-This is a service sharing and seeking app.For example,if you find a nice restaurant and want to share it with others,you can upload it as a service,then
+This app can help you find you need,if you find a nice restaurant and want to share it with others,you can upload it as a service,then
 other people will see it.You can also leave your rating ,comments and photos here as a feedback.And if you want to seek a good place like bars or café，you
 can find them here.You can sort the results by your preference and make a wise decision. 
 
