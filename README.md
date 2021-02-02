@@ -65,8 +65,6 @@ I believe that helping makes a better life,so it motivates me to develop this ap
 * [Uiautomator](https://developer.android.com/training/testing/ui-automator.html)
 * [Junit](https://github.com/junit-team/junit4)
 * [Hamcrest](https://github.com/hamcrest)
-## TODO
-* Add other language support,Chinese in the first place
 ## License
 ```
    Copyright 2019 Carlos Yang
