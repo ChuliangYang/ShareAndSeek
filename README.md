@@ -1,11 +1,8 @@
 # Share and seek
 
-This app can help you find you need,if you find a nice restaurant and want to share it with others,you can upload it as a service,then
-other people will see it.You can also leave your rating ,comments and photos here as a feedback.And if you want to seek a good place like bars or café，you
-can find them here.You can sort the results by your preference and make a wise decision. 
+This application serves as a platform to discover and share local establishments such as restaurants, bars, and cafes. Users can contribute by uploading their favorite spots, providing ratings, comments, and photos as feedback for others to explore. The app enables users to filter and sort results according to their preferences, assisting in making informed decisions on where to dine or socialize.
 
-If you are enthusiastic and want to offer some unprofitable help like hitchhiking , you can do it here.And you can also post your troubles that you can't deal with,and see if some one can help you.
-I believe that helping makes a better life,so it motivates me to develop this app :)
+Additionally, the app fosters a community-driven approach by allowing users to offer non-profit assistance, such as hitchhiking, or seek help with various challenges. This project was inspired by the belief that helping one another cultivates a better life, motivating the development of this unique and beneficial application. :)
 
 <a href='https://play.google.com/store/apps/details?id=com.me.cl.capstoneproject'><img alt='Get it on Google Play'  height="80" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
 ## Feature
